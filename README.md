@@ -8,4 +8,6 @@ Below is a high level on how the services will be registered to the naming-serve
 ### Server URL
 This service will run under 8000 port by default: http://localhost:8000
 
-In future implementations it can run in additional ports to handle multiple instances and load balancing.
+### Consuming the API
+http://localhost:INSTANCE-PORT/currency-exchange/from/USD/to/INR
+
